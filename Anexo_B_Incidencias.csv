@@ -1,0 +1,15 @@
+ID,Fecha,Resumen (una línea),Severidad,Estado,Entorno,Comando (si aplica),Mensaje / Contexto de error,Causa raíz (breve),Solución aplicada,Evidencia,Notas
+B-01,2025-08-02,Error de carga/versión de VTK en GUI.,media,Cerrada,"Python 3.7, GCC 8.4.0, VTK 9.0.1","python
+from vtk import vtkRenderWindow","Error principal: ModuleNotFoundError: No module named 'vtk'
+
+Comando: 
+python",Rutas o versión VTK incompatible.,Fijar VTK 9.0.1 y Tk/Tcl 8.6; revisar PATHs.,Captura de pantalla 2025-08-02 132234.png,
+B-02,2025-08-04,Error: FileNotFoundError: [Errno 2] No such file or directory: 'openscad': 'openscad',media,Cerrada,"Python 3.7, GCC 8.4.0, VTK 9.0.1",python -m lib3d_mec_ginac examples/four_bar,"Error: FileNotFoundError: [Errno 2] No such file or directory: 'openscad': 'openscad'
+
+Comando: python -m lib3d_mec_ginac examples/four_bar",N/D,N/D,Captura de pantalla 2025-08-04 015953.png,
+B-03,2025-08-07,Requisito de versión (CMake/VTK) no cumplido.,leve,Cerrada,"Python 3.7, GCC 7.4.0, VTK no instalada",CMake 3.12...3.21 or higher is required,"Error principal: CMake 3.12...3.21 or higher is required
+
+Comando: sudo pip install .",Intento de usar VTK 9.5.0 → requería CMake superior; decisión: re-crear VM con VTK 9.0.1.,Incidencia **leve**: rehacer VM con VTK 9.0.1.,Captura de pantalla 2025-08-07 140556.png,
+B-04,2025-08-30,Error principal: Did you forgot to import 'sys'?,media,Cerrada,"Python 3.12, GCC 8.4.0, VTK 9.0.1",python -m lib3d_mec_ginac examples/four_bar,"Error principal: Did you forgot to import 'sys'?
+
+Comando: python -m lib3d_mec_ginac examples/four_bar",N/D,N/D,Captura de pantalla 2025-08-30 010946.png,

@@ -1,0 +1,6 @@
+﻿Evidencia,Descripción,Archivo generado,Archivo original
+1,Secciones clave (readelf -S -W),1,1.original
+2,DW_AT_comp_dir (readelf --debug-dump=info),2,2.original
+3,NEEDED/RPATH (readelf -d),3,3.original
+4,Conteo símbolos (nm -D --defined-only | wc -l),4,4.original
+comparar.py,Comparador de símbolos nm -D,-,—

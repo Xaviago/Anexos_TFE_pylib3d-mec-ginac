@@ -1,0 +1,10 @@
+﻿Componente (fuente),Versión/Tag,Origen (URL git/tar),Commit/Branch/Tag,Sistema de build,Comando de verificación,Notas
+Python,3.12,https://www.python.org/ftp/python/3.12.10/Python-3.12.10.tgz,Tag/fuente oficial,Autotools/CMake,python3.12 --version,
+VTK,9.0.1,https://github.com/Kitware/VTK.git,v9.0.1,CMake,"python -c ""import vtk; print(vtk.vtkVersion().GetVTKVersion())""",
+GCC,7.4.0,https://ftp.gnu.org/gnu/gcc/gcc-7.4.0/gcc-7.4.0.tar.gz,release 7.4.0,Autotools,gcc --version | head -n1,
+CLN,1.3.4,git://www.ginac.de/cln.git,9b86a7f,Autotools,pkg-config --modversion cln,
+GiNaC,1.7.7,git://www.ginac.de/ginac.git,d3ed101,Autotools,pkg-config --modversion ginac,
+mpfr,3.1.6,https://www.mpfr.org/mpfr-3.1.6/mpfr-3.1.6.tar.gz,release 3.1.6,Autotools,pkg-config --modversion mpfr,
+mpc,1.0.3,https://ftp.gnu.org/gnu/mpc/mpc-1.0.3.tar.gz,release 1.0.3,Autotools,pkg-config --modversion mpc,
+isl,0.18,https://libisl.sourceforge.io/isl-0.18.tar.gz,release 0.18,Autotools,pkg-config --modversion isl,
+Fontconfig,2.12.6,https://www.freedesktop.org/software/fontconfig/release/fontconfig-2.12.6.tar.gz,release 2.12.6,Autotools,fc-list | head -n3,

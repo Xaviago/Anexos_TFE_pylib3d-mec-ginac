@@ -1,0 +1,7 @@
+﻿SO,Python,GCC,VTK,Probado,Estado,Módulo,Framework,Req. extra,Notas / Relación
+Ubuntu 18.04.2,3.7,8.4.0,No instalado,Sí,OK,OK,KO,—,
+Ubuntu 18.04.2,3.7,8.4.0,9.0.1,Sí,OK,OK,OK,Requiere OpenSCAD; usar Tk/Tcl 8.6,
+Ubuntu 18.04.2,3.12,8.4.0,No instalado,Sí,OK,OK,KO,—,
+Ubuntu 18.04.2,3.12,8.4.0,9.0.1,Sí,OK,OK,OK,Requiere OpenSCAD; usar Tk/Tcl 8.6,
+Ubuntu 18.04.2,3.7,7.4.0,No instalado,Sí,OK,OK,KO,—,Relacionado con generación de la .so (Anexo G)
+Ubuntu 18.04.2,3.7,7.4.0,9.0.1,Sí,OK,OK,OK,Requiere OpenSCAD; usar Tk/Tcl 8.6,Relacionado con generación de la .so (Anexo G)

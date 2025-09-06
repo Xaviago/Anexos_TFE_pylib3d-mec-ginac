@@ -1,0 +1,10 @@
+﻿Ítem,Valor,Notas
+Sistema operativo,Ubuntu 18.04.2 LTS (Bionic Beaver),Validado en Anexo C
+Kernel,5.4.0-150-generic #167~18.04.1-Ubuntu (x86_64),
+CPUs,4,
+Memoria RAM,8192 MB,
+Disco,25 GB,
+Carpeta compartida,Escritorio\TFG\Documentos apoyo TFG\carpeta pruebas,Opción: Automontar
+Guest Additions,Instaladas,VirtualBox (para carpeta compartida y gráficos)
+Hostname,xaviago-VirtualBox,
+Red,Intel PRO/1000 MT Desktop (NAT),

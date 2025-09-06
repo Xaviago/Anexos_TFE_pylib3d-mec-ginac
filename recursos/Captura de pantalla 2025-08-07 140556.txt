@@ -1,0 +1,15 @@
+ID: So_4
+
+Error principal: CMake 3.12...3.21 or higher is required
+
+Comando: sudo pip install .
+
+Resumen: Ocurrió mientras se configuraba un entorno donde generar y poder probar la biblioteca compartida sin haber instalado previamente VTK
+
+Entorno: Ubuntu18.04.2, Python3.7, GCC 8.4.0
+
+Severidad: Baja (creo, no sé)
+
+Estado: Cerrado. Solucionado
+
+Solución: Este error se producía ya que se intentaba descargar y configurar la biblioteca "VTK" desde el archivo de setup.py con el problema de que la versión que se intentaba instalar era la última disponible. La solución fue seguir usando la versión v9.0.1

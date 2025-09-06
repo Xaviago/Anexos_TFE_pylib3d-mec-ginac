@@ -1,0 +1,15 @@
+ID: Or_25
+
+Error: FileNotFoundError: [Errno 2] No such file or directory: 'openscad': 'openscad'
+
+Comando: python -m lib3d_mec_ginac examples/four_bar
+
+Resumen: El módulo lib3d_mec_ginac intenta usar OpenSCAD para generar visualizaciones 3D a partir del modelo, pero no encuentra el ejecutable openscad en el sistema. Por eso lanza excepciones en hilos que intentan dibujar escenas usando ese programa.
+
+Entorno: Ubuntu18.04.2, Python3.7, VTK v9.0.1, GCC 8.4.0
+
+Severidad: creo que leve o, como mucho, grave ya que dice que le falta
+
+Estado: Cerrado. Solucionado
+
+Solución: sudo snap install openscad

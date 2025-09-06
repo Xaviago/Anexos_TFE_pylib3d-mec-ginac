@@ -1,0 +1,17 @@
+  [ 1] .note.gnu.build-id NOTE            00000000000001c8 0001c8 000024 00   A  0   0  4
+  [ 2] .gnu.hash         GNU_HASH        00000000000001f0 0001f0 001a88 00   A  3   0  8
+  [ 3] .dynsym           DYNSYM          0000000000001c78 001c78 007500 18   A 36   1  8
+  [ 4] .gnu.version      VERSYM          0000000000018db6 018db6 0009c0 02   A  3   0  2
+  [ 5] .gnu.version_r    VERNEED         0000000000019778 019778 000110 00   A 36   3  8
+  [14] .eh_frame_hdr     PROGBITS        00000000000d24c4 0d24c4 001814 00   A  0   0  4
+  [15] .eh_frame         PROGBITS        00000000000d3cd8 0d3cd8 00b790 00   A  0   0  8
+  [26] .debug_aranges    PROGBITS        0000000000000000 0ed383 001c70 00      0   0  1
+  [27] .debug_info       PROGBITS        0000000000000000 0eeff3 66a10c 00      0   0  1
+  [28] .debug_abbrev     PROGBITS        0000000000000000 7590ff 011c4c 00      0   0  1
+  [29] .debug_line       PROGBITS        0000000000000000 76ad4b 06074c 00      0   0  1
+  [30] .debug_str        PROGBITS        0000000000000000 7cb497 0b5066 01  MS  0   0  1
+  [31] .debug_loc        PROGBITS        0000000000000000 8804fd 30d5a2 00      0   0  1
+  [32] .debug_ranges     PROGBITS        0000000000000000 b8da9f 0b0080 00      0   0  1
+  [33] .symtab           SYMTAB          0000000000000000 c3db20 00b850 18     34 719  8
+  [34] .strtab           STRTAB          0000000000000000 c49370 01171e 00      0   0  1
+  [36] .dynstr           STRTAB          00000000002ee1c0 c5c1c0 00fc52 00   A  0   0  8

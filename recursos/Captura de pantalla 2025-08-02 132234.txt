@@ -1,0 +1,21 @@
+ID: Or_21
+
+Error principal: ModuleNotFoundError: No module named 'vtk'
+
+Comando: 
+python
+from vtk import vtkRenderWindow
+
+Resumen: A pesar de estar instalado VTK, Python no es capaz de encontrarlo
+
+Entorno: Ubuntu18.04.2, Python3.7, VTK v9.0.1, GCC 8.4.0
+
+Severidad: Alta si no se tiene constancia de lo que se está haciendo, ya que se puede volver a intentar instalar otra vez la biblioteca cuando el problema es otro
+
+Estado: Cerrado. Solucionado
+
+Solución: Generar y almacenar las siguientes dos rutas
+echo 'export PYTHONPATH=/usr/local/lib/python3.7/site-packages' >> ~/.bashrc
+source ~/.bashrc
+echo "/usr/local/lib" | sudo tee /etc/ld.so.conf.d/vtk.conf
+sudo ldconfig

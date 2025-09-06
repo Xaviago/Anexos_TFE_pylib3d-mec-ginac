@@ -1,0 +1,8 @@
+﻿Paquete (apt),Versión instalada,Origen (repo PPA/oficial),Rol (build/runtime)
+cmake,3.10.2-1ubuntu2.18.04.2,Oficial Ubuntu 18.04,Build
+mesa-utils,8.4.0-1,Oficial Ubuntu 18.04,Runtime
+libsm6,2:1.2.2-1,Oficial Ubuntu 18.04,Runtime
+libxrender1,1:0.9.10-1,Oficial Ubuntu 18.04,Runtime
+libfontconfig1,2.12.6-0ubuntu2,Oficial Ubuntu 18.04,Runtime
+tcl8.6,8.6.8+dfsg-3,Oficial Ubuntu 18.04,Runtime
+tk8.6,8.6.8-4,Oficial Ubuntu 18.04,Runtime

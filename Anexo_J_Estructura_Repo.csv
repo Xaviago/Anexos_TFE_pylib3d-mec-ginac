@@ -1,0 +1,16 @@
+﻿Ruta,Tipo,Propósito,Notas
+.github/,Carpeta,CI/plantillas de issues/PRs.,Opcional para flujos de trabajo.
+docker/,Carpeta,Recetas Docker para entorno/CI.,Útil para reproducir entornos.
+docs/,Carpeta,Documentación del proyecto.,Referencia rápida y guías.
+examples/,Carpeta,"Ejemplos de uso (four_bar, simple_pendulum, ...).",Usados en Anexo I.
+include/,Carpeta,"Headers C/C++ (API y dependencias: cln/, ginac/).",Símbolos exportados de la .so.
+lib/linux/x86_64/,Carpeta,Artefactos binarios y biblioteca compartida.,Destino de lib_3d_mec_ginac.so.
+scripts/,Carpeta,Scripts de instalación y build.,"setup_entorno.sh, setup_so.sh, makefile; ver Anexo D."
+src/,Carpeta,Código fuente (C++/Cython).,Compilación de la .so.
+tests/,Carpeta,Pruebas automatizadas.,Opcionales.
+.gitignore,Archivo,Ignorar artefactos temporales.,
+LICENSE.txt,Archivo,Licencia (GPLv2).,
+README.md,Archivo,"Resumen, instalación y uso.",Punto de entrada.
+install.sh,Archivo,Instalador clásico.,Herencia del repo original.
+requirements.txt,Archivo,Dependencias Python.,
+setup.py,Archivo,Empaquetado/instalación Python.,

@@ -1,0 +1,6 @@
+Paquete (pip),Versión,Motivo,Relacionado con,Notas
+Cython,0.29.36,Compilación/extensiones,Build/Paquete,
+pyglet,1.3.2,Dependencia general,VTK/GUI,
+setuptools,80.9.0,Dependencia general,Build/Paquete,
+wheel,0.45.1,Dependencia general,Build/Paquete,
+testresources,2.0.2,Dependencia general,Build/Paquete,

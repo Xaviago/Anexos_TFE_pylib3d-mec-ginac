@@ -1,0 +1,15 @@
+ID: Py_6
+
+Error principal: Did you forgot to import 'sys'?
+
+Comando: python -m lib3d_mec_ginac examples/four_bar
+
+Resumen: Mientras se ejecutaba uno de los ejemplos, concretamente el ejemplo "four_bar" utilizando la herramienta como un framework
+
+Entorno: Ubuntu18.04.2, Python3.12, GCC 8.4.0
+
+Severidad: Baja, informaba del error
+
+Estado: Cerrado. Solucionado
+
+Solución: Se editó el archivo para importar esa librería. Esto se debía a que IDLE suele tener sys preimportado pero ha fallado. Es mejor no depender de ello para tener mayor control sobre las librerías
